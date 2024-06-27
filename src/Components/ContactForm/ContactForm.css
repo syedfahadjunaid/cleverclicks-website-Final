@@ -1,0 +1,95 @@
+.contact-form-main {
+  width: 100%;
+  height: 100%;
+}
+.contact-form-main > form {
+  height: 100%;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+}
+
+.contact-form-main > form > div {
+  width: 90%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.contact-form-main > form > div > input,
+.contact-form-main > form > div > textarea {
+  width: 100%;
+  height: 100%;
+
+  padding-left: 10px;
+
+  font-family: Poppins;
+
+  background-color: #f4f4f4;
+
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form-main > form > div > p {
+  position: absolute;
+
+  width: 100%;
+
+  z-index: 1;
+
+  top: -20%;
+  left: 20%;
+
+  color: var(--primary-color-1);
+}
+
+.main-form-textarea > p {
+  position: absolute;
+
+  width: 100%;
+
+  z-index: 1;
+
+  top: 10% !important;
+  left: 20%;
+
+  color: var(--primary-color-1);
+}
+
+.contact-form-main > form > button {
+  display: flex;
+  align-self: center;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+
+  width: 150px;
+
+  color: #fff;
+  font-family: Poppins;
+
+  background-color: #000;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
